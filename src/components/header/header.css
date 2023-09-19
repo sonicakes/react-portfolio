@@ -9,6 +9,9 @@ header{
     height: 100%;
     position: relative;
 }
+h5 {
+    font-size: 1rem;
+}
 
 /* cta */
 .cta{
@@ -35,21 +38,26 @@ header{
     background: var(--color-primary);
 }
 
+.header__socials svg {
+    height: 25px;
+    width: 25px;
+}
+
 /* me */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 20.2rem;
-    height: 26.8rem;
+  
+    width: 35rem;
+    height: 25rem;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    padding: 20px;
+    padding-top: 15px;
+
 }
-.me > img {
-    border-radius: 12rem 12rem 0 0;
-}
+
 /* scroll down */
 .scroll__down {
 position: absolute;
