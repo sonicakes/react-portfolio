@@ -63,7 +63,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2,
@@ -128,6 +127,6 @@ img {
         margin-bottom: 2rem;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 2.75rem;
     }
 }

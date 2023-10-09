@@ -67,12 +67,14 @@ font-size: 0.9rem;
 /* media queries */
 
 /* medium devices - tablets */
+@media screen and (max-width: 1024px) {
+header {
+    height: auto;
+ }
+}
 
 /* small devices - mobiles */
 @media screen and (max-width: 600px) {
- header {
-    height: auto;
- }
  .header__socials, .scroll__down {
     display: none;
  }

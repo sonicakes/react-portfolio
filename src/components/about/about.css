@@ -16,14 +16,14 @@
     );
     display: grid;
     place-items: center;
-    max-height: 280px;
+    max-height: 300px;
 }
 .about__me-image{
     border-radius: 2rem;
     overflow:hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    max-height: 280px;
+    max-height: 300px;
 }
 .about__me-image:hover {
     transform: rotate(0deg);
